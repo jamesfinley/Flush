@@ -1,3 +1,11 @@
+/* ====================================================================== //
+// = Copyright © 2009 James Finley
+// = ==================================================================== //
+// = Flush-JSON.as is a set of JSON methods for Flush.
+// = Code used to parse JSON is modified from:
+// =   http://inner.geek.nz/uploads/JSON.as
+// ====================================================================== */
+
 _root.flush.extend({
 	json: function (file, callback) {
 		var obj = this;
