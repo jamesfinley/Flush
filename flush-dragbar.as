@@ -3,7 +3,7 @@
 // = ==================================================================== //
 // = Dragbar Widget
 // ====================================================================== */
-_root.flush.extend({
+Flush.fn.extend({
 	dragbar: function (orientation, min, max, callback, press, release) {
 		var obj = this.object;
 		this.event('onPress', function () {

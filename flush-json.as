@@ -6,7 +6,7 @@
 // =   http://inner.geek.nz/uploads/JSON.as
 // ====================================================================== */
 
-_root.flush.extend({
+Flush.fn.extend({
 	json: function (file, callback) {
 		var obj = this;
 		XML.prototype.onData = function (src) {
